@@ -5,29 +5,29 @@ import Image from "next/image";
 // Executive Board Data - Easy to update
 const executiveBoard = [
   {
-    name: "Sarah Hasan",
-    role: "President",
-    image: "/images/team/sarah-hasan.png",
-  },
-  {
     name: "Daniel Prieto",
-    role: "Executive VP",
+    role: "President",
     image: "/images/team/daniel-prieto.png",
   },
   {
-    name: "Tanya Dhawan",
-    role: "VP of Finance",
-    image: "/images/team/tanya-dhawan.png",
-  },
-  {
-    name: "Akshaya Sreerangapuri",
-    role: "VP of Communications",
-    image: "/images/team/akshaya-sreerangapuri.png",
-  },
-  {
     name: "Maria Lopez",
-    role: "VP of Advertising",
+    role: "Executive VP",
     image: "/images/team/maria-lopez.png",
+  },
+  {
+    name: "Azael Rangel-Landeros",
+    role: "VP of Finance",
+    image: "/images/team/Azael_Rangel-Landeros.jpg",
+  },
+  {
+    name: "Nicolas Ferrer",
+    role: "VP of Communications",
+    image: "/images/team/Nicolas_Ferrer.jpg",
+  },
+  {
+    name: "Giselle Dossal",
+    role: "VP of Advertising",
+    image: "/images/team/giselle-dossal.png",
   },
   {
     name: "Saanvi Habbu",
@@ -35,9 +35,9 @@ const executiveBoard = [
     image: "/images/team/saanvi-habbu.png",
   },
   {
-    name: "Maryam Krabatou",
+    name: "Ihsan Yildirim",
     role: "VP of Programs",
-    image: "/images/team/maryam-krabatou.png",
+    image: "/images/team/Ihsan_Yildirim.jpg",
   },
   {
     name: "Sameen Qureshi",
@@ -48,34 +48,19 @@ const executiveBoard = [
 
 const committeeChairs = [
   {
-    name: "Giselle Dossal",
+    name: "Kayito Eche",
     role: "Advertising Committee Chair",
-    image: "/images/team/giselle-dossal.png",
+    image: "/images/team/kayito-eche.png",
   },
   {
-    name: "Monali Dutta",
+    name: "Vaishnavi Balan",
+    role: "Finance Committee Chair",
+    image: "/images/team/Vaishnavi.jpg",
+  },
+  {
+    name: "Elisa Trevino",
     role: "Advertising Committee Chair",
-    image: "/images/team/monali-dutta.png",
-  },
-  {
-    name: "Hannah McFarlane",
-    role: "Advertising Committee Chair",
-    image: "/images/team/hannah-mcfarlane.png",
-  },
-  {
-    name: "Aleshka Perez-Reyes",
-    role: "Community Engagement Committee Chair",
-    image: "/images/team/aleshka-perez-reyes.png",
-  },
-  {
-    name: "Valeria Ramirez Mireles",
-    role: "Community Engagement Committee Chair",
-    image: "/images/team/valeria-ramirez-mireles.png",
-  },
-  {
-    name: "Arushi Sharma",
-    role: "Community Engagement Committee Chair",
-    image: "/images/team/arushi-sharma.png",
+    image: "/images/team/Elisa_Trevino.jpg",
   },
 ];
 
@@ -90,7 +75,7 @@ export default function About() {
       {/* Mission Section with Background */}
       <section className="relative py-20 md:py-28">
         <Image
-          src="/images/about-mission-bg.png"
+          src="/images/Ourmission_group.png"
           alt="AMA UTD team"
           fill
           className="object-cover"
@@ -177,7 +162,7 @@ export default function About() {
         <h3 className="mt-16 text-xl font-bold text-navy-900 tracking-tight text-center">
           Committee Chairs
         </h3>
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
           {committeeChairs.map((member, index) => (
             <div
               key={index}

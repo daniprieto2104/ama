@@ -14,7 +14,7 @@ export default function Events() {
       {/* Main Events Section with Background */}
       <section className="relative py-20 md:py-28">
         <Image
-          src="/images/events-instagram-bg.png"
+          src="/images/TRG-events.jpg"
           alt="AMA UTD members at event"
           fill
           className="object-cover"
