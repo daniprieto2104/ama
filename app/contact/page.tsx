@@ -38,7 +38,7 @@ const contactMethods = [
     name: "GroupMe",
     description: "Join our community chat",
     value: "Join Group",
-    href: "https://groupme.com/join_group/109649963/Gmm4r39W",
+    href: "https://groupme.com/join_group/115335007/fAWnZ44B",
     icon: (
       <svg
         className="w-6 h-6"

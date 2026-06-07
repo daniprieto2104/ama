@@ -22,7 +22,7 @@ export default function Impact() {
       {/* What is MTM Section with Background */}
       <section className="relative py-20 md:py-28">
         <Image
-          src="/images/MTM-what.png"
+          src="/images/MTM-logo-why.png"
           alt="AMA UTD team at conference"
           fill
           className="object-cover"
@@ -121,7 +121,7 @@ export default function Impact() {
       {/* Why Join Section with Background - For Students */}
       <section className="relative py-20 md:py-28">
         <Image
-          src="/images/mtm-why-bg.png"
+          src="/images/MTM-what.png"
           alt="AMA UTD team at studio"
           fill
           className="object-cover"

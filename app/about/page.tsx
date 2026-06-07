@@ -50,7 +50,7 @@ const committeeChairs = [
   {
     name: "Kayito Eche",
     role: "Advertising Committee Chair",
-    image: "/images/team/kayito-eche.png",
+    image: "/images/team/Kayito_Eche.JPEG",
   },
   {
     name: "Vaishnavi Balan",
