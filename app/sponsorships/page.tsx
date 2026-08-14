@@ -41,7 +41,7 @@ const sponsorshipTiers = [
       "Invitation to host office site visit",
       "Spotlight promotional campaign on social",
       "Co-branded marketing challenge",
-      "Placement of a customized message in our weekly emails",
+      "Featured company profile & message across channels",
     ],
   },
 ];

@@ -40,7 +40,7 @@ export default function Home() {
             style={{ animationDelay: "0.3s" }}
           >
             <Button
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfs-Qmn2RK-YcuLylISg1phgKDNRpE6QcHkMFSs4Y-Y-t8WOA/closedform"
+              href="https://www.ama.org/ama-member-benefits/#pricing"
               variant="primary"
               external
             >

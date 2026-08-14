@@ -35,9 +35,9 @@ const executiveBoard = [
     image: "/images/team/saanvi-habbu.png",
   },
   {
-    name: "Ihsan Yildirim",
+    name: "Morgan Wallace",
     role: "VP of Programs",
-    image: "/images/team/Ihsan_Yildirim.jpg",
+    image: "/images/team/Morgan_Wallace.png",
   },
   {
     name: "Sameen Qureshi",
@@ -51,11 +51,6 @@ const committeeChairs = [
     name: "Kayito Eche",
     role: "Advertising Committee Chair",
     image: "/images/team/Kayito_Eche.JPEG",
-  },
-  {
-    name: "Vaishnavi Balan",
-    role: "Finance Committee Chair",
-    image: "/images/team/Vaishnavi.jpg",
   },
   {
     name: "Elisa Trevino",
