@@ -143,7 +143,7 @@ export default function Membership() {
               </ul>
               <div className="mt-8">
                 <Button
-                  href="https://www.zeffy.com/en-US/ticketing/utd-american-marketing-associations-memberships"
+                  href="https://www.zeffy.com/en-US/ticketing/ama-ut-dallas-2026-2027-membership-campaign"
                   variant="primary"
                   external
                   className="w-full justify-center"

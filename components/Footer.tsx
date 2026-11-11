@@ -47,7 +47,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://groupme.com/join_group/109649963/Gmm4r39W"
+                href="https://groupme.com/join_group/115335007/fAWnZ44B"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-navy-900 hover:text-navy-700 transition-colors"

@@ -96,11 +96,6 @@ export default function Sponsorships() {
                   : "bg-white border border-gray-200"
               }`}
             >
-              {tier.featured && (
-                <div className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-4">
-                  MOST POPULAR
-                </div>
-              )}
               <h3
                 className={`text-xl font-bold ${
                   tier.featured ? "text-white" : "text-navy-900"

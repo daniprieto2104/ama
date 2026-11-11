@@ -11,6 +11,19 @@ export default function Events() {
         subtitle="Stay up to date with workshops, meetings, and networking opportunities."
       />
 
+      {/* Current Semester Status */}
+      <Section background="white">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-2xl md:text-3xl font-bold text-navy-900 tracking-tight">
+            That&apos;s a Wrap on Fall 2026
+          </h2>
+          <p className="mt-4 text-gray-600 text-lg">
+            All of our Fall 2026 events have wrapped up. More to come in Spring
+            2027!
+          </p>
+        </div>
+      </Section>
+
       {/* Main Events Section with Background */}
       <section className="relative py-20 md:py-28">
         <Image
@@ -177,7 +190,7 @@ export default function Events() {
           </p>
           <div className="mt-8">
             <Button
-              href="https://groupme.com/join_group/109649963/Gmm4r39W"
+              href="https://groupme.com/join_group/115335007/fAWnZ44B"
               variant="secondary"
               external
               className="bg-white text-navy-900 hover:bg-gray-100 border-white"
